@@ -1,0 +1,42 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor folders
+.vscode/
+.idea/
+*.suo
+*.sln
+
+# Sensitive Information & Environments
+.env
+.env.local
+*.key
+*.pem
+id_rsa
+*.p12
+*.ovpn
+
+# Data and Logs (Prevents accidental upload of massive or sensitive real-world logs)
+*.log
+*.pcap
+*.pcapng
+*.gz
+*.tar
+*.zip
+# Note: If you have a SAFE, anonymized sample log you WANT to upload, 
+# you can force it by adding a line like this below:
+# !sample_auth_logs.csv
+
+# Python environments (If you add log-parsing scripts later)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
